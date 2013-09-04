@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<TextBlocks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TextBlock Key="Locations.aspx" Description="Something">Blah Blah Blah Blah</TextBlock>
+  <TextBlock Key="Error.aspx" Description="Page Text">Blah Blah Blah Blah</TextBlock>
+  <TextBlock Key="Contact.aspx" Description="Side Text">&amp;lt;b&amp;gt;Blah Blah Blah Blah &amp;lt;/b&amp;gt;</TextBlock>
+  <TextBlock Key="About.aspx" Description="Page Text">Blah Blah Blah &lt;b&gt;Blah&lt;b&gt;</TextBlock>
+  <TextBlock Key="Home.aspx" Description="Preface">Blah &lt;a href="http://www.google.com"&gt;Blah&lt;/a&gt; Blah &lt;b&gt;Bsdfglah&lt;/b&gt; then &lt;span style="font-weight:bold"&gt; again &lt;/span&gt;</TextBlock>
+</TextBlocks>

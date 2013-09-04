@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4E7B72EC-CE07-40D9-BF5E-69708F9D1389}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bryan_Test</RootNamespace>
+    <AssemblyName>Bryan_Test</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60623.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RealSignatureWeb, Version=1.0.4948.14143, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\RealSignatureWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.UI, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.Web.UI.Skins, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+    <Reference Include="WebSignature, Version=2.3.0.0, Culture=neutral, PublicKeyToken=20d99f9b11ed9ee2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\WebSignature.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddRowsOfControls.aspx" />
+    <Content Include="ApparatioFormLayout.aspx" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Bryan_Test.dll" />
+    <Content Include="bin\Bryan_Test.pdb" />
+    <Content Include="bin\RealSignatureWeb.dll" />
+    <Content Include="bin\RealSignatureWeb.pdb" />
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\WebSignature.dll" />
+    <Content Include="CMS\Login.aspx" />
+    <Content Include="CMS\Test.aspx" />
+    <Content Include="CMS\xml\content.xml" />
+    <Content Include="Controls\ModalUserControl.ascx" />
+    <Content Include="Controls\ucFormControls.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="FlexPaperDemo.aspx" />
+    <Content Include="ImageGeneration.aspx" />
+    <Content Include="Images\14133.png" />
+    <Content Include="Images\FlexPaper\images\bg_button_.png" />
+    <Content Include="Images\FlexPaper\images\bg_head.png" />
+    <Content Include="Images\FlexPaper\images\bg_process_active.gif" />
+    <Content Include="Images\FlexPaper\images\bg_process_complete.gif" />
+    <Content Include="Images\FlexPaper\images\bg_process_default.gif" />
+    <Content Include="Images\FlexPaper\images\bg_process_prevactive.gif" />
+    <Content Include="Images\FlexPaper\images\button_hdr_docs.png" />
+    <Content Include="Images\FlexPaper\images\button_hdr_home.png" />
+    <Content Include="Images\FlexPaper\images\cancel.png" />
+    <Content Include="Images\FlexPaper\images\config.ini.win.aspx.png" />
+    <Content Include="Images\FlexPaper\images\config.ini.win.php.png" />
+    <Content Include="Images\FlexPaper\images\delete.png" />
+    <Content Include="Images\FlexPaper\images\flexpaper_logo.png" />
+    <Content Include="Images\FlexPaper\images\footer_logo.gif" />
+    <Content Include="Images\FlexPaper\images\icon_check_process_12px.gif" />
+    <Content Include="Images\FlexPaper\images\icon_warn.png" />
+    <Content Include="Images\FlexPaper\images\info_icon.png" />
+    <Content Include="Images\FlexPaper\images\paper_lock.png" />
+    <Content Include="Images\FlexPaper\images\reload.png" />
+    <Content Include="Images\FlexPaper\images\std_btn_24_blue.png" />
+    <Content Include="Images\FlexPaper\images\upload.png" />
+    <Content Include="Images\Letterhead_Large.png" />
+    <Content Include="Images\Letterhead_Small.png" />
+    <Content Include="iPARReportTest.aspx" />
+    <Content Include="jQueryTestPage.aspx" />
+    <Content Include="NavigatonPage.aspx" />
+    <Content Include="RadValidation.aspx" />
+    <Content Include="Rolls.aspx" />
+    <Content Include="Scripts\DragAndDropList.js" />
+    <Content Include="Scripts\flashcanvas.js" />
+    <Content Include="Scripts\FlexPaper\expressInstall.swf" />
+    <Content Include="Scripts\FlexPaper\flexpaper.js" />
+    <Content Include="Scripts\FlexPaper\FlexPaperViewer.js" />
+    <Content Include="Scripts\FlexPaper\jquery.extensions.min.js" />
+    <Content Include="Scripts\FlexPaper\jquery.min.js" />
+    <Content Include="Scripts\FlexPaper\pdf.min.js" />
+    <Content Include="Scripts\jquery.dotdotdot-1.5.9.min.js" />
+    <Content Include="Scripts\jquery.jscrollpane.min.js" />
+    <Content Include="Scripts\jquery.signaturepad.min.js" />
+    <Content Include="Scripts\json2.min.js" />
+    <Content Include="SignaturePad.aspx" />
+    <Content Include="Styles\FlexPaper\flexpaper.css" />
+    <Content Include="Styles\jquery.jscrollpane.css" />
+    <Content Include="Styles\jquery.signaturepad.css" />
+    <Content Include="TelerikDataListExperiment.aspx" />
+    <Content Include="TelerikModalTest.aspx" />
+    <Content Include="TestInterface.aspx" />
+    <Content Include="TestServices.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebSignature.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddRowsOfControls.aspx.cs">
+      <DependentUpon>AddRowsOfControls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRowsOfControls.aspx.designer.cs">
+      <DependentUpon>AddRowsOfControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApparatioFormLayout.aspx.cs">
+      <DependentUpon>ApparatioFormLayout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApparatioFormLayout.aspx.designer.cs">
+      <DependentUpon>ApparatioFormLayout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CMS\CMS_Util.cs" />
+    <Compile Include="CMS\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMS\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CMS\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CMS\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CodeFile1.cs" />
+    <Compile Include="Controls\ModalUserControl.ascx.cs">
+      <DependentUpon>ModalUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ModalUserControl.ascx.designer.cs">
+      <DependentUpon>ModalUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ucFormControls.ascx.cs">
+      <DependentUpon>ucFormControls.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ucFormControls.ascx.designer.cs">
+      <DependentUpon>ucFormControls.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FlexPaperDemo.aspx.cs">
+      <DependentUpon>FlexPaperDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FlexPaperDemo.aspx.designer.cs">
+      <DependentUpon>FlexPaperDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageGeneration.aspx.cs">
+      <DependentUpon>ImageGeneration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageGeneration.aspx.designer.cs">
+      <DependentUpon>ImageGeneration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="iPARReportTest.aspx.cs">
+      <DependentUpon>iPARReportTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="iPARReportTest.aspx.designer.cs">
+      <DependentUpon>iPARReportTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="jQueryTestPage.aspx.cs">
+      <DependentUpon>jQueryTestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="jQueryTestPage.aspx.designer.cs">
+      <DependentUpon>jQueryTestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NavigatonPage.aspx.cs">
+      <DependentUpon>NavigatonPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavigatonPage.aspx.designer.cs">
+      <DependentUpon>NavigatonPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadValidation.aspx.cs">
+      <DependentUpon>RadValidation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadValidation.aspx.designer.cs">
+      <DependentUpon>RadValidation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Rolls.aspx.cs">
+      <DependentUpon>Rolls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rolls.aspx.designer.cs">
+      <DependentUpon>Rolls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\view.ashx.cs">
+      <DependentUpon>view.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="SignaturePad.aspx.cs">
+      <DependentUpon>SignaturePad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignaturePad.aspx.designer.cs">
+      <DependentUpon>SignaturePad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TelerikDataListExperiment.aspx.cs">
+      <DependentUpon>TelerikDataListExperiment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TelerikDataListExperiment.aspx.designer.cs">
+      <DependentUpon>TelerikDataListExperiment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TelerikModalTest.aspx.cs">
+      <DependentUpon>TelerikModalTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TelerikModalTest.aspx.designer.cs">
+      <DependentUpon>TelerikModalTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestInterface.aspx.cs">
+      <DependentUpon>TestInterface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestInterface.aspx.designer.cs">
+      <DependentUpon>TestInterface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestServices.aspx.cs">
+      <DependentUpon>TestServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestServices.aspx.designer.cs">
+      <DependentUpon>TestServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebSignature.aspx.cs">
+      <DependentUpon>WebSignature.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebSignature.aspx.designer.cs">
+      <DependentUpon>WebSignature.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CMS\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bryan_Test_Services\Bryan_Test_Services.csproj">
+      <Project>{1523DA65-BF35-40CA-AA27-E8B96685A820}</Project>
+      <Name>Bryan_Test_Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="services\view.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PDF\InfiniLeague-CBSSports.pdf" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>30981</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
